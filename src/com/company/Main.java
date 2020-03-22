@@ -33,5 +33,7 @@ public class Main {
         HealthyBurger healthyBurger4 = new HealthyBurger("lamb", 4);
         healthyBurger3.addHamburgerAddition1("custord", 0.5);
         System.out.println("Total price is " + healthyBurger3.itemizeHamburger());
+
+        System.out.println("version 2");
     }
 }
