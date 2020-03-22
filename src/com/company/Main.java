@@ -25,5 +25,9 @@ public class Main {
         HealthyBurger healthyBurger2 = new HealthyBurger("kase",3);
         healthyBurger1.addHamburgerAddition2("egg",1);
         System.out.println("Total Price is " + healthyBurger2.itemizeHamburger());
+
+        HealthyBurger healthyBurger3 = new HealthyBurger("lamb", 4);
+        healthyBurger3.addHamburgerAddition1("custord", 0.5);
+        System.out.println("Total price is " + healthyBurger3.itemizeHamburger());
     }
 }
